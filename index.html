@@ -13,14 +13,13 @@
   <body>
     <div class="board">
       <form id="todo-form">
-        <input type="text" placeholder="New TODO..." id="todo-input" />
+        <input type="text" placeholder="New List..." id="todo-input" />
         <button type="submit">Add +</button>
       </form>
 
-      <div class="lanes">
+      <div id="lanes" class="lanes">
         <div class="swim-lane" id="todo-lane">
           <h3 class="heading">TODO</h3>
-
           <p class="task" draggable="true">Get groceries</p>
         </div>
 
@@ -33,9 +32,7 @@
         <div class="swim-lane">
           <h3 class="heading">Done</h3>
 
-          <p class="task" draggable="true">
-            Homework
-          </p>
+          <p class="task" draggable="true">Homework</p>
         </div>
       </div>
     </div>
